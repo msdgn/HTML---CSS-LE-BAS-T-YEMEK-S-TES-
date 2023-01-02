@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*menu*/
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: black;
+            padding: 20px 25px;
+        }
+        nav{
+         display: inline-block;
+         width: calc(100% - 103px);
+         text-align: right;
+
+          
+            }
+           
+        nav ul {
+            list-style-type: none;
+   
+        }
+        nav ul li{
+            display: inline-block;
+            margin: 10 25px ;
+                  
+            }
+        .logo{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 22px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 15px 25px;
+            font-size: 22px;
+        }
+        nav ul li a:hover{
+            background-color: white;
+            color: black;
+
+        }
+        /*menu altı resim*/
+        #section-1{
+            background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(hamburger.jpg);
+            background-position: top;
+            padding: 12px;
+            height: 850px;
+            width:100% ;
+            background-size: cover;
+        }
+        .btn-s1{
+            margin-left:37%  ;
+            margin-top: 20%;
+            background-color: brown;
+            color: white;
+            padding: 25px 20px;
+            font-size: 20px;
+            border-radius: 6px;
+            transition: color 1s;
+        }
+        .btn-s1:hover{
+            color: black;
+        }
+        /*card*/
+        #section-2{
+            display: flex;
+            justify-content: space-around;
+            margin: 10%;
+
+        }
+        .card{
+            width: 300px; ;
+            box-shadow: 0 5px  9px 0 rgba(0,0,0,0.4);
+            border-radius: 6px;
+            margin: 0 30px;
+        }
+        .card:hover{
+            opacity: 0.7;
+
+        }
+        .container{
+            padding: 5px 20px;
+
+        }
+        .container p{
+            margin: 15px 0;
+        }
+        img{
+            border-radius: 6px 6px 0 0;
+            width: 100%;
+        }
+        p{
+            font-size: 19px;
+        }
+        #section-3{
+            display: flex;
+            justify-content: space-around;
+            margin: 10%;
+        }
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+ <a href="#" class="logo">LOGO</a>
+ <nav>
+    <ul>
+        <li>
+            <a href="">Menu</a>
+            <a href="">İçecekler</a>
+            <a href="">Tatlı</a>
+            
+        </li>
+    </ul>
+ </nav>
+
+    </header>
+    <main>
+        <section id="section-1">
+            <button class="btn-s1">MENÜLERİ GÖRMEK İÇİN TIKAYINIZ</button>
+        </section>
+        <section id="section-2">
+            <div class="card">
+                <img src="hamburger.jpg" alt="">
+                <div class="container">
+                    <h2>Lorem, ipsum </h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="hamburger.jpg" alt="">
+                <div class="container">
+                    <h2>Lorem, ipsum </h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="hamburger.jpg" alt="">
+                <div class="container">
+                    <h2>Lorem, ipsum </h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+        <section id="section-3">
+            <div class="card">
+                <img src="hamburger.jpg" alt="">
+                <div class="container">
+                    <h2>Lorem, ipsum </h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="hamburger.jpg" alt="">
+                <div class="container">
+                    <h2>Lorem, ipsum </h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="hamburger.jpg" alt="">
+                <div class="container">
+                    <h2>Lorem, ipsum </h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        powered by Sait DOĞAN
+
+    </footer>
+    
+</body>
+</html>
